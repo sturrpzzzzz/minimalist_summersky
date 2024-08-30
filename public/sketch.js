@@ -123,9 +123,9 @@ function drawStems() {
   // Draw individual stems.
   stroke("brown");
   strokeWeight(3);
-  line(100, 600, 100, flowerY);
-  line(200, 600, 200, flowerY);
-  line(300, 600, 300, flowerY);
+  line(100, height, 100, flowerY);
+  line(200, height, 200, flowerY);
+  line(300, height, 300, flowerY);
 }
 
 function growFlowers() {
